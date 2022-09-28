@@ -1,0 +1,13 @@
+
+:root {
+  --content-width: 1086px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+}
+
+$titleColor: #212B31;
+$textColor: #72787D;
+$menuActiveColor: #036FC7;
+$btnTextColor: #fff;
+$btnColor: #212B31;
+$accentLine: #FFD042;
