@@ -224,4 +224,31 @@ a {
   line-height: 24px;
   color: #72787D;
 }
+
+.screen2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+.screen2__title {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+  margin-bottom: 16px;
+}
+.screen2__descr {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+  margin-bottom: 40px;
+}
+.screen2__image {
+  display: block;
+  margin: 0 auto;
+  max-width: 1040px;
+}
 /*# sourceMappingURL=main.css.map */

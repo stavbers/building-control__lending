@@ -1,0 +1,28 @@
+.screen2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  text-align: center;
+
+  &__title {
+    @include mp0;
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+    margin-bottom: 16px;
+  }
+
+  &__descr {
+    @include mp0;
+    font-size: 20px;
+    line-height: 32px;
+    color: $textColor;
+    margin-bottom: 40px;
+  }
+
+  &__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 1040px;
+  }
+}
+
