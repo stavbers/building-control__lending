@@ -1,0 +1,62 @@
+.screen3 {
+
+  &__title {
+    @include mp0; 
+    text-align: center;
+    margin-bottom: 21px;
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+
+  }
+
+  &__descr {
+    @include mp0; 
+    margin: 0 auto;
+    max-width: 830px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    color: $textColor;
+    margin-bottom: 28px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__info {
+    max-width: 550px;
+
+  }
+
+  &__subtitle {
+    @include mp0; 
+    font-size: 18px;
+    line-height: 24px;
+    color: $titleColor;
+    margin-bottom: 19px;
+  }
+
+  &__text {
+    @include mp0; 
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor;
+  }
+
+  &__image {
+    max-width: 420px;
+    max-height: 280px;
+  }
+}
+
+.screen3-wrp {
+  padding-top: 78px;
+  padding-bottom: 143px;
+}
+.screen3__info_right {
+  order: 1;
+}
