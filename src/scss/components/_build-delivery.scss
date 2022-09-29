@@ -1,0 +1,51 @@
+.build-delivery {
+margin-top: 150px;
+padding-bottom: 70px;
+  &__wrp {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__info {
+    max-width: 542px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+  }
+
+  &__descr {
+    font-size: 20px;
+    line-height: 32px;
+    color: $textColor;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 32px;
+    color: $titleColor;
+    z-index: 1;
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      bottom: 0px;
+      left: -2px;
+      width: 250px;
+      height: 16px;
+      background-color: $accentLine;
+    }
+  }
+
+  &__image {
+    max-width: 464px;
+    min-height: 400px;
+  }
+}
+
