@@ -301,4 +301,35 @@ a {
   max-width: 464px;
   min-height: 400px;
 }
+
+.sponsors__link {
+  margin-right: 36px;
+  margin-bottom: 10px;
+  display: block;
+}
+.sponsors__link:last-child {
+  margin-right: 0px;
+  margin-left: -35px;
+}
+.sponsors__image {
+  max-width: 180px;
+}
+
+.sponsors-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  border-top: 1px solid #EEF2F3;
+  border-bottom: 1px solid #EEF2F3;
+}
 /*# sourceMappingURL=main.css.map */

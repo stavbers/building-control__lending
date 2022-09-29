@@ -1,0 +1,28 @@
+.sponsors {
+// margin-bottom: 50px;
+
+  &__link {
+    margin-right: 36px;
+    margin-bottom: 10px;
+    display: block;
+    &:last-child {
+      margin-right: 0px;
+      margin-left: -35px;
+    }
+  }
+
+  &__image {
+    max-width: 180px;
+  }
+}
+
+.sponsors-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  border-top: 1px solid #EEF2F3;
+  border-bottom: 1px solid #EEF2F3;
+}
