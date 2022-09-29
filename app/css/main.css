@@ -227,7 +227,6 @@ a {
 
 .screen2 {
   margin-top: 150px;
-  margin-bottom: 150px;
   text-align: center;
 }
 .screen2__title {
@@ -250,5 +249,6 @@ a {
   display: block;
   margin: 0 auto;
   max-width: 1040px;
+  margin-bottom: 150px;
 }
 /*# sourceMappingURL=main.css.map */

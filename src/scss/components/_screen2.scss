@@ -1,6 +1,5 @@
 .screen2 {
   margin-top: 150px;
-  margin-bottom: 150px;
   text-align: center;
 
   &__title {
@@ -23,6 +22,7 @@
     display: block;
     margin: 0 auto;
     max-width: 1040px;
+    margin-bottom: 150px;
   }
 }
 
