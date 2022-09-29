@@ -1,0 +1,40 @@
+.advantage {
+
+  &__wrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    text-align: center;
+    margin-right: 40px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  &__item-title {
+    @include mp0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $titleColor;
+  }
+
+  &__descr {
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor;
+  }
+}
+.container {
+}
