@@ -1,0 +1,82 @@
+.screen4 {
+padding-bottom: 140px;
+  &__title {
+    @include mp0;
+    text-align: center;
+    margin-bottom: 21px;
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+  }
+
+  &__descr {
+    @include mp0;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 20px;
+    line-height: 32px;
+    color: $textColor;
+  }
+
+  &__list {
+    @include liststyle;
+    @include mp0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 33px;
+  }
+  & img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+  }
+
+  &__info {
+    max-width: 270px;
+    margin-right: 27px;
+  }
+
+  &__subtitle {
+    @include mp0;
+    font-size: 18px;
+    line-height: 24px;
+    color: $titleColor;
+    margin-bottom: 11px;
+  }
+
+  &__text {
+    @include mp0;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    color: $titleColor;
+    z-index: 1;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 165px;
+      width: 284px;
+      height: 16px;
+      z-index: -1;
+      background-color: $accentLine;
+    }
+    & span {
+      color: $textColor;
+    }
+  }
+}
+
