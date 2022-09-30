@@ -1,0 +1,68 @@
+.screen5 {
+text-align: center;
+padding-bottom: 62px;
+  &__title {
+    @include mp0;
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+    &::after {
+      content: '';
+      position: absolute;
+      top: -17px;
+      right: 21px;
+      width: 40px;
+      height: 40px;
+      background-image: url(../../img/svg/screen5-1.svg)
+
+    }
+  }
+
+  &__descr {
+    @include mp0;
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 32px;
+    color: $textColor;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststyle;
+    display: flex;
+    
+  }
+
+  &__item {
+    margin-right: 33px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__img {
+    margin-bottom: 19px;
+  }
+
+  &__subtitle {
+    @include mp0;
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $titleColor;
+  }
+
+  &__text {
+    @include mp0;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor;
+  }
+}
+
+.screen5-wrp {
+}
