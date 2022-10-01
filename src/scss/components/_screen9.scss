@@ -1,0 +1,36 @@
+.screen9 {
+padding-bottom: 150px;
+  &__item {
+    margin-right: 150px;
+    margin-bottom: 42px;
+    &:last-child {
+      margin-right: 0px;
+    }
+    &:nth-last-child(2) {
+      margin-right: 0px;
+
+    }
+  }
+
+  &__image {
+    margin-bottom: 32px;
+  }
+
+  &__descr {
+    @include mp0;
+    margin: 0 auto;
+    max-width: 140px;
+    text-align: center;
+    color: $textColor;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.screen9-wrp {
+  // max-width: 672px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}

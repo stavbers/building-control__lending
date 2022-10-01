@@ -912,4 +912,45 @@ a {
   background-color: #036FC7;
   opacity: 1;
 }
+
+.screen9 {
+  padding-bottom: 150px;
+}
+.screen9__item {
+  margin-right: 150px;
+  margin-bottom: 42px;
+}
+.screen9__item:last-child {
+  margin-right: 0px;
+}
+.screen9__item:nth-last-child(2) {
+  margin-right: 0px;
+}
+.screen9__image {
+  margin-bottom: 32px;
+}
+.screen9__descr {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 140px;
+  text-align: center;
+  color: #72787D;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.screen9-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
 /*# sourceMappingURL=main.css.map */
