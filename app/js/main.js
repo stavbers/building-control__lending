@@ -126,6 +126,24 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_functions */ "./src/js/_functions.js");
 
+var swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar'
+  }
+});
 })();
 
 /******/ })()

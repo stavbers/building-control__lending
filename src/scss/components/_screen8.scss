@@ -1,0 +1,139 @@
+.swiper {
+  width: 614px;
+  height: 400px;
+}
+
+.screen8 {
+padding-bottom: 120px;
+// height: 516px;
+  &__title {
+    @include mp0;
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+
+  &__descr {
+    @include mp0;
+    font-size: 20px;
+    line-height: 32px;
+    color: $titleColor;
+    margin-bottom: 55px;
+    text-align: center;
+  }
+
+  &__info {
+    margin-right: 78px;
+  }
+
+  &__item {
+    max-width: 450px;
+    padding-left: 56px;
+    position: relative;
+
+    & img {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+    }
+  }
+
+  &__subtitle {
+    @include mp0;
+    font-size: 18px;
+    line-height: 24px;
+    color: $titleColor;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    @include mp0;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor;
+    margin-bottom: 30px;
+  }
+
+  &__slider {
+    overflow: hidden;
+    width: 614px;
+    background-image: url(../../img/svg/screen8-slider.svg);
+    background-repeat: no-repeat;
+    background-position: top 46px left 42px;
+    padding-top: 60px;
+    padding-left: 87px;
+    padding-right: 92px;
+    background-color: #F6F8F9;
+    border-radius: 4px;
+  }
+}
+
+.screen8-wrp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper {}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.screen8-slider {
+
+  &__text {
+    @include mp0;
+    max-width: 435px;
+    max-height: 288px;
+    font-size: 30px;
+    line-height: 48px;
+    color: $titleColor;
+    margin-bottom: 28px;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+
+  &__image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  &__title {
+    @include mp0;
+    color: $titleColor;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 1px;
+  }
+
+  &__descr {
+    @include mp0;
+    color: $textColor;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  text-align-last: left;
+  bottom: 0px;
+
+}
+.swiper-pagination-bullet {
+background-color: #036FC733;
+opacity: 60%;
+}
+.swiper-pagination-bullet-active {
+  background-color: #036FC7;
+  opacity: 1;
+}
