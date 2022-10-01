@@ -1,0 +1,86 @@
+.screen7 {
+  padding-top: 150px;
+  &-wrp {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left {
+    // margin-right: 45px;
+    width: 462px;
+  }
+
+  &__title {
+    @include mp0;
+    font-size: 32px;
+    line-height: 48px;
+    color: $titleColor;
+    margin-bottom: 21px;
+  }
+
+  &__descr {
+    @include mp0;
+    font-size: 20px;
+    line-height: 32px;
+    color: $textColor;
+    margin-bottom: 60px;
+  }
+
+  &__image {
+
+  }
+
+  &__right {
+    max-width: 448px;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststyle;
+  }
+
+  &__item {
+  }
+
+  &__subtitle {
+    @include mp0;
+    position: relative;
+    font-size: 17px;
+    line-height: 24px;
+    color: $titleColor;
+    margin-bottom: 10px;
+    & span {
+      position: absolute;
+      top: 6px;
+      left: -70px;
+      width: 40px;
+      height: 40px;
+      padding: 8px 16px 10px 14px;
+      border: 1px solid #DADEDF;
+    }
+  }
+
+  &__text {
+    @include mp0;
+    font-size: 16px;
+    line-height: 24px;
+    color: $textColor;
+    margin-bottom: 30px;
+  }
+
+  &__action {
+    display: flex;
+  }
+
+  &__link {
+    margin-right: 16px;
+    padding: 13px 25px;
+    border: 1px solid #DADEDF;
+    border-radius: 4px;
+    color: $titleColor;
+    &_active {
+      color: #fff;
+      border: 1px solid $titleColor;
+      background-color: $btnColor;
+    }
+  }
+}
