@@ -1,0 +1,39 @@
+.solid-block {
+
+
+  &__wrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+background-color: #F6F8F9;
+border-radius: 4px;
+  }
+
+  &__img {
+    width: 36px;
+    height: 36px;
+    margin-right: 26px;
+  }
+
+  &__text {
+    @include mp0;
+    font-size: 18px;
+    line-height: 32px;
+    color: $titleColor;
+    margin-right: 66px;
+    & span {
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: $titleColor;
+    padding: 13px 25px;
+    background-color: #fff;
+    border: 1px solid #DADEDF;
+    border-radius: 4px;
+  }
+}
