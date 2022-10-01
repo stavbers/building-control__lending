@@ -1,0 +1,40 @@
+.banner {
+padding-bottom: 150px;
+
+  &__title {
+    @include mp0;
+    color: $titleColor;
+    text-align: center;
+    // font-weight: 300;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 54px;
+  }
+
+  &__action {
+    text-align: center;
+  }
+
+  &__link {
+    color: $titleColor;
+    padding: 13px 25px;
+    border-radius: 4px;
+    background-color: #fff;
+  margin-right: 0px;
+    &__active {
+      color: #fff;
+      background-color: $btnColor;
+      margin-right: 16px;
+    }
+  }
+}
+
+.banner-wrp {
+  padding-top: 117px;
+  padding-bottom: 117px;
+  border-radius: 4px;
+  background-color: #FFD042;
+  padding-left: 38px;
+  padding-right: 38px;
+  background-image: url(../../img/banner.png);
+}

@@ -953,4 +953,42 @@ a {
   -ms-flex-align: baseline;
   align-items: baseline;
 }
+
+.banner {
+  padding-bottom: 150px;
+}
+.banner__title {
+  margin: 0;
+  padding: 0;
+  color: #212B31;
+  text-align: center;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 54px;
+}
+.banner__action {
+  text-align: center;
+}
+.banner__link {
+  color: #212B31;
+  padding: 13px 25px;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-right: 0px;
+}
+.banner__link__active {
+  color: #fff;
+  background-color: #212B31;
+  margin-right: 16px;
+}
+
+.banner-wrp {
+  padding-top: 117px;
+  padding-bottom: 117px;
+  border-radius: 4px;
+  background-color: #FFD042;
+  padding-left: 38px;
+  padding-right: 38px;
+  background-image: url(../../img/banner.png);
+}
 /*# sourceMappingURL=main.css.map */
